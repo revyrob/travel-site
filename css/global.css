@@ -51,14 +51,15 @@ li.active {
 /* container and cards  */
 .card {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 20px;
-    border-radius: 2%;
+    border-radius: 5px;
     width: 300px;
     height: 400px;
     text-align: center;
     padding-top: 20px;
     background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 .container {
     display: flex;
@@ -72,23 +73,46 @@ li.active {
     padding:0% 10%;
     padding-top: 30px;
 }
+.panel__header {
+    color: #335576;
+}
 
 /* footer for global */
 .panel--footer {
+    background-color: #FEFAF5;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.footer__col {
+    padding-bottom: 3%;
 }
 .footer__header {
     font-size: 1.25rem;
-    color: blue;
+    color: #335576;
+    margin-bottom: 25px;
 }
 .footer__subheader {
     font-size: 0.75rem;
     color: orange;
     text-transform: uppercase;
-    
+    margin-bottom: 15px;
 }
 .footer__divide {
     display: flex;
+    align-items:baseline;
+    justify-content: space-between;
 }
+.hours__col {
+    margin-right: 30px;
+}
+.footer__divide img {
+    height: 18px;
+}
+/* having problems with the soical area and it not lining up to the others */
+.footer__divide--img {
+    width: 150px;
+}
+
+
