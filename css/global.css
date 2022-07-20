@@ -1,0 +1,45 @@
+/* general css */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/* navbar css */
+/* make space between the subtitles in the nav bar */
+header {
+    margin: 3% 10% 0% 10%;
+}
+.navbar {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar__left {
+    margin-left: auto;
+    text-align: right;
+}
+.navbar__item--list-item {
+    padding-bottom: 4px;
+    color: black;
+}
+.navbar__item--list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.logo {
+   color:#335576;
+   font-weight: 700;
+}
+
