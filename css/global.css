@@ -43,3 +43,52 @@ header {
    font-weight: 700;
 }
 
+/* active page with underline */
+li.active {
+    border-bottom: 3px solid #DB7A4E;
+}
+
+/* container and cards  */
+.card {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 2%;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* panel to make all the margins the same for each page */
+.panel {
+    padding:0% 10%;
+    padding-top: 30px;
+}
+
+/* footer for global */
+.panel--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__header {
+    font-size: 1.25rem;
+    color: blue;
+}
+.footer__subheader {
+    font-size: 0.75rem;
+    color: orange;
+    text-transform: uppercase;
+    
+}
+.footer__divide {
+    display: flex;
+}
