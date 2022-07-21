@@ -97,7 +97,7 @@ li.active {
 
 /* panel to make all the margins the same for each page */
 .panel {
-    margin-top: 60px;
+    margin: 30px 0px 50px 0px;
     padding: 25px 75px 15px 75px;
 }
 
@@ -106,38 +106,40 @@ li.active {
     background-color: #FEFAF5;
     display: flex;
     justify-content:space-around;
-    align-items: baseline;
+    align-items:baseline;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding: 30px 0px;
 }
 .footer__col {
     padding: 0px 15px 10px 15px;
+    
 }
 .footer__header {
     font-size: 1.25rem;
     color: #335576;
     margin-bottom: 25px;
 }
+.footer__info {
+    color:#335576;
+}
 .footer__subheader {
     font-size: 0.75rem;
     color: #DB7A4E;
     text-transform: uppercase;
     margin-bottom: 15px;
+    height: 0.75rem;
 }
 .footer__divide {
     display: flex;
     align-items:baseline;
-    justify-content: space-between;
+    justify-content:space-between;
+    
 }
-.footer__col--hours {
-    margin-right: 30px;
+.footer__col--col {
+    margin-right: 40px;
 }
 .footer__divide img {
     height: 18px;
-}
-/* having problems with the soical area and it not lining up to the others */
-.footer__divide--img {
-    width: 150px;
 }
 
 /* button for all of site */
@@ -155,6 +157,11 @@ li.active {
     .footer__col {
         border-bottom: 1px solid #335576;
         margin-bottom: 20px;
+    }
+    .panel--footer {
+        justify-content:left;
+        align-items:center;
+        padding-left: 30px;
     }
     .navbar {
         flex-direction: column;
