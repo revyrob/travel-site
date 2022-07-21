@@ -176,13 +176,13 @@ li.active {
     }
   }
 
-  @media (max-width: 880px) {
+  @media (max-width: 910px) {
     .footer__divide--hours {
         flex-direction: column;
     }
-    .footer__col--hours {
+    .footer__col--col {
         margin-bottom: 30px;
     }
-    
   }
+  
 
