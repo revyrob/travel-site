@@ -30,15 +30,15 @@
 
 /* cards for reccommendations */
 .card--hawaii {
-    background-image: url("../assets/Images/hawaii.jpg");
+    background-image: url("../assets/images/hawaii.jpg");
     background-size:cover;
 }
 .card--iceland {
-    background-image: url("../assets/Images/iceland.jpg");
+    background-image: url("../assets/images/iceland.jpg");
     background-size:cover;
 }
 .card--greece {
-    background-image: url("../assets/Images/greece.jpg");
+    background-image: url("../assets/images/greece.jpg");
     background-size:cover;
 }
 .container__country {
