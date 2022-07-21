@@ -13,7 +13,7 @@
 <body>
     <!-- nav bar -->
     <header class="navbar">
-        <a class="logo" href="">Travel Site</a>
+        <a class="logo" href="/">Travel Site</a>
         <nav class="navbar__left">
             <ul class="navbar__item--list">
                 <li><a class="navbar__item--list-item" href="../index.html">Home</a></li>
@@ -24,28 +24,49 @@
         </nav>
     </header>
     
-    <section class="panel panel--hawaii">
-        <h1>Hawaii</h1>
-        <div class="container">
-            <div class="card">
-                <h2 class="card__header">
-                    Friday
-                </h2>
+    <main>
+        <!-- panel for hawaii with cards -->
+        <section class="panel panel--hawaii">
+            <h1 class="panel__header">Hawaii</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="card__header">Friday</div>
+                    <ul class="card__content">
+                        <li class="card__info">Breakfast</li>
+                        <li class="card__info">Lunch</li>
+                        <li class="card__info">Dinner</li>
+                        <li class="card__info">Snorkeling</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <div class="card__header">
+                        Saturday
+                    </div>
+                    <ul class="card__content">
+                        <li class="card__info">Breakfast</li>
+                        <li class="card__info">Lunch</li>
+                        <li class="card__info">Dinner</li>
+                        <li class="card__info">Snorkeling</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        Sunday
+                    </div>
+                    <ul class="card__content">
+                        <li class="card__info">Breakfast</li>
+                        <li class="card__info">Lunch</li>
+                        <li class="card__info">Dinner</li>
+                        <li class="card__info">Snorkeling</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card">
-                <h2 class="card__header">
-                    Saturday
-                </h2>
-            </div>
-            <div class="card">
-                <h2 class="card__header">
-                    Sunday
-                </h2>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     
-    <footer class="panel panel--footer">
+    <!-- footer -->
+    <footer class="panel--footer">
         <div class="footer__col">
             <h3 class="footer__header">Contact</h3>
             <h4 class="footer__subheader">Email</h4>
@@ -53,16 +74,16 @@
         </div>
         <div class="footer__col">
             <h3 class="footer__header">Hours</h3>
-            <div class="footer__divide">
-                <div class="hours__col">
+            <div class="footer__divide footer__divide--hours">
+                <div class="footer__col--hours">
                     <h4 class="footer__subheader">Monday-Friday</h4>
                     <p class="footer__info">9:00 AM - 5:00 PM</p>
                 </div>
-                <div class="hours__col">
+                <div class="footer__col--hours">
                     <h4 class="footer__subheader">Saturday</h4>
                     <p class="footer__info">10:00 AM - 4:00 PM</p>
                 </div>
-                <div class="hours__col">
+                <div class="footer__col--hours">
                     <h4 class="footer__subheader">Sunday</h4>
                     <p class="footer__info">Closed</p>
                 </div>

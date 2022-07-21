@@ -4,28 +4,26 @@
     background-color: #FEFAF5;
     text-align: left;
     color: #335576;
-    padding:0% 10%;
+    margin-top: 60px;
+    padding-top: 40px;
 }
 .hero__col {
     padding-top: 30px;
     min-width: 40%;
 }
 .hero__col img {
-    width: 75%;   
+    width: 75%;  
+    padding-right:5%; 
 }
 .col--image {
     display: flex;
     align-items:center;
     justify-content:end;
 }
-.hero__col--button {
-    background-color: #DB7A4E;
-    border-radius: 20px;
-    width: 175px;
-    text-align: center;
-    padding: 10px 0px;
-    color: #FEFAF5;
+.col--text {
+    padding-left: 10%;
 }
+
 .hero p {
     padding: 30px 0px;
 }
@@ -50,4 +48,19 @@
     color:white;
     font-weight: 700;
     font-size: 1.25rem;
+}
+.container {
+    margin-left: 10%;
+}
+/* make the border bigger on the button when selected*/
+.container a:hover {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    height: 420px;
+}
+
+/* panel changes for main */
+.panel__header {
+    margin-bottom: 20px;
+    color: #335576;
 }

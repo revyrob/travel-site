@@ -1,0 +1,27 @@
+.panel--hawaii {
+    background-image: url('../assets/Images/hawaii.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+.panel--iceland {
+    background-image: url('../assets/Images/iceland.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+.panel--greece {
+    background-image: url('../assets/Images/greece.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+.panel__header {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+}
+.card__info,
+.card__header{
+    color:black;
+}

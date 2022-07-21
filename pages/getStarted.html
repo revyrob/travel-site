@@ -4,61 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- stylesheets linked -->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
     
-    <title>Home</title>
+    <!-- stylesheets linked -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/getStarted.css">
+    
+    <title>Get Started</title>
 </head>
-<body> 
+<body>
     <!-- nav bar -->
     <header class="navbar">
         <a class="logo" href="/">Travel Site</a>
         <nav class="navbar__left">
             <ul class="navbar__item--list">
-                <li class="active"><a class="navbar__item--list-item" href="index.html">Home</a></li>
-                <li><a class="navbar__item--list-item" href="./pages/hawaii.html">Hawaii</a></li>
-                <li><a class="navbar__item--list-item" href="./pages/iceland.html">Iceland</a></li>
-                <li><a class="navbar__item--list-item" href="./pages/greece.html">Greece</a></li>
+                <li><a class="navbar__item--list-item" href="/">Home</a></li>
+                <li><a class="navbar__item--list-item" href="./hawaii.html">Hawaii</a></li>
+                <li><a class="navbar__item--list-item" href="./iceland.html">Iceland</a></li>
+                <li class="active"><a class="navbar__item--list-item" href="./greece.html">Greece</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <!-- hero section -->
-        <section class="hero">
-            <div class="hero__col col--text">
-                <h1>Travelling Comes with Endless Discoveries</h1>
-                <p>Don't let your dreams be just dreams.  Experience the world by
-                    booking a vacation with us now.
-                </p>
-                <a class="btn" href="./pages/getStarted.html">Get started</a>
+        <!-- form section -->
+        <section class="form">
+            <div class="form__col col--text">
+                <h1>Sign-up today!</h1>
+                <form class="form__signup">
+                    <div class="form__label">
+                        <label for="first">First Name: </label>
+                        <input type="text" name="firstname" required>
+                    </div>
+                    <div class="form__label">
+                        <label for="last">Last Name: </label>
+                        <input type="text" name="lastname" required>
+                    </div>
+                    <div class="form__label">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form__label">
+                        <label for="destination">Select Destination</label>
+                        <select class="form__lable--dropdown" name="destination" id="destination">
+                            <option  value="hawaii">Hawaii</option>
+                            <option value="iceland">Iceland</option>
+                            <option value="greece">Greece</option>
+                        </select>
+                    </div>
+                    <button class="btn form__label">Sign-up</button>
+                </form>
+                
+            <!-- column image with plane -->
             </div>
-            <div class="hero__col col--image">
+            <div class="form__col col--image">
                 <img src="/assets/Images/hero.png" alt="plane flying around world">
-            </div>
-        </section>
-        
-        <!-- recommendations section -->
-        <section class="panel panel--places">
-            <h2 class="panel__header">Recommendations</h2>
-            <div class="container">
-                <a class="container__card" href="./pages/hawaii.html">
-                    <div class="card card--hawaii">
-                        <div class="container__country">Hawaii</div>
-                    </div>
-                </a>
-                <a class="container__card" href="./pages/iceland.html">
-                    <div class="card card--iceland">
-                        <div class="container__country">Iceland</div>
-                    </div>
-                </a>
-                <a class="container__card" href="./pages/greece.html">
-                    <div class="card card--greece">
-                        <div class="container__country">Greece</div>
-                    </div>
-                </a>
             </div>
         </section>
     </main>
