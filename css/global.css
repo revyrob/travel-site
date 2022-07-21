@@ -132,7 +132,7 @@ li.active {
 .footer__divide {
     display: flex;
     align-items:baseline;
-    justify-content:space-between;
+    justify-content:space-around;
     
 }
 .footer__col--col {
