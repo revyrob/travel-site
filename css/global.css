@@ -112,12 +112,15 @@ li.active {
     background-color: #FEFAF5;
     display: flex;
     justify-content:space-around;
-    align-items:baseline;
+    align-items:stretch;
     flex-wrap: wrap;
     padding: 30px 0px;
 }
 .footer__col {
-    padding: 0px 15px 10px 15px;
+    /* padding: 0px 15px 10px 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 .footer__header {
